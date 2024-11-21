@@ -1,5 +1,7 @@
 # Nest Async Cache Dedupe
 
+[![Publish Package to NPM](https://github.com/little-thing/nestjs-async-cache-dedupe/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/little-thing/nestjs-async-cache-dedupe/actions/workflows/publish.yml)
+
 [English](README.md) | [中文](README.zh-CN.md)
 
 A high-performance function call caching and deduplication solution for NestJS, specifically designed to solve performance issues caused by duplicate function calls in high-concurrency scenarios.

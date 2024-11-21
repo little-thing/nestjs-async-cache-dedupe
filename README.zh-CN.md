@@ -1,5 +1,7 @@
 # Nest Async Cache Dedupe
 
+[![Publish Package to NPM](https://github.com/little-thing/nestjs-async-cache-dedupe/actions/workflows/publish.yml/badge.svg?branch=main)](https://github.com/little-thing/nestjs-async-cache-dedupe/actions/workflows/publish.yml)
+
 [English](README.md) | [中文](README.zh-CN.md)
 
 一个用于 NestJS 的高性能函数调用缓存和去重解决方案。专门解决在高并发场景下重复函数调用导致的性能问题。
