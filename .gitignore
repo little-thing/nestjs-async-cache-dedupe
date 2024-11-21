@@ -38,7 +38,5 @@ coverage/
 .cache/
 
 # 其他
-.npmrc
 .yarnrc
-.pnpmrc
-*.tgz 
+*.tgz
