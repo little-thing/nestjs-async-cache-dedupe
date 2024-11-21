@@ -1,0 +1,31 @@
+# 源代码和配置文件
+src/
+tests/
+.github/
+.vscode/
+.idea/
+.husky/
+
+# 配置文件
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+.editorconfig
+jest.config.js
+tsconfig.json
+tsup.config.ts
+
+# 其他文件
+*.log
+*.tgz
+.DS_Store
+coverage/
+docs/
+examples/
+.gitignore
+.npmrc
+pnpm-lock.yaml
+
+# 中文文档（如果不想发布）
+README.zh-CN.md 

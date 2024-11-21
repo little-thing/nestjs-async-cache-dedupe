@@ -14,7 +14,9 @@
     "clean": "rimraf dist",
     "test": "jest",
     "lint": "eslint src --ext .ts",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run clean && npm run build && npm run test",
+    "prepare": "husky install",
+    "release": "pnpm run build && pnpm publish --access public"
   },
   "repository": {
     "type": "git",
