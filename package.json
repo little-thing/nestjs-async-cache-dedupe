@@ -1,0 +1,76 @@
+{
+  "name": "nestjs-async-cache-dedupe",
+  "version": "1.0.0",
+  "description": "A high-performance function call caching and deduplication solution for NestJS, optimizing concurrent function calls and reducing duplicate operations in high-concurrency scenarios.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "build:watch": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "clean": "rimraf dist",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-thing/nestjs-async-cache-dedupe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/little-thing/nestjs-async-cache-dedupe/issues"
+  },
+  "homepage": "https://github.com/little-thing/nestjs-async-cache-dedupe#readme",
+  "keywords": [
+    "nestjs",
+    "cache",
+    "dedupe",
+    "concurrent",
+    "performance",
+    "optimization",
+    "function-cache",
+    "async-cache",
+    "redis-cache",
+    "memory-cache"
+  ],
+  "author": {
+    "name": "little-thing",
+    "email": "1107589563@qq.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "@nestjs/common": "latest",
+    "@nestjs/core": "latest",
+    "reflect-metadata": "latest",
+    "async-cache-dedupe": "^2.0.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "tsup": "^8.0.2",
+    "typescript": "~5.3.3"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "*",
+    "@nestjs/core": "*",
+    "typescript": ">=4.5.0"
+  }
+}
