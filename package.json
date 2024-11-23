@@ -1,6 +1,6 @@
 {
   "name": "nestjs-async-cache-dedupe",
-  "version": "1.0.1-beta.6",
+  "version": "1.0.1",
   "description": "A high-performance function call caching and deduplication solution for NestJS, optimizing concurrent function calls and reducing duplicate operations in high-concurrency scenarios.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
